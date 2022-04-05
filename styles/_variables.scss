@@ -1,0 +1,18 @@
+// Fonts
+$font-body: 16px;
+$font-400: 400;
+$font-700: 700;
+
+// Colors
+$color-cyan: hsl(179, 62%, 43%);
+$color-yellow: hsl(71, 73%, 54%);
+$color-light-gray: hsl(204, 43%, 93%);
+$color-gray-blue: hsl(218, 22%, 67%);
+
+// Functions
+@mixin flex-center($direction) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: center;
+}

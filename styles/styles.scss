@@ -1,0 +1,19 @@
+@import './reset';
+@import './variables';
+
+// html {
+
+// }
+
+body {
+    @include flex-center(row);
+    background-color: $color-light-gray;
+    font-family: 'Karla', sans-serif;
+    height: 100vh;
+}
+
+.card {
+    @include flex-center(column);
+    height: 722px;
+    width: 311px;
+}
