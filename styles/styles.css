@@ -15,10 +15,6 @@ body {
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 722px;
   width: 311px;
 }/*# sourceMappingURL=styles.css.map */

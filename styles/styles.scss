@@ -13,7 +13,7 @@ body {
 }
 
 .card {
-    @include flex-center(column);
+    // @include flex-center(column);
     height: 722px;
     width: 311px;
 }
