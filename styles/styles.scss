@@ -1,10 +1,6 @@
 @import './reset';
 @import './variables';
 
-// html {
-
-// }
-
 body {
     @include flex-center(row);
     background-color: $color-light-gray;
@@ -13,7 +9,20 @@ body {
 }
 
 .card {
-    // @include flex-center(column);
-    height: 722px;
     width: 311px;
+}
+
+.card-content {
+    padding: 1.5rem;
+}
+
+// Join Section
+.card-join {
+    background-color: white;
+
+    .join-header {
+        font-size: 1.25rem;
+        color: $color-cyan;
+        font-weight: $font-700;
+    }
 }

@@ -15,6 +15,18 @@ body {
 }
 
 .card {
-  height: 722px;
   width: 311px;
+}
+
+.card-content {
+  padding: 1.5rem;
+}
+
+.card-join {
+  background-color: white;
+}
+.card-join .join-header {
+  font-size: 1.25rem;
+  color: hsl(179deg, 62%, 43%);
+  font-weight: 700;
 }/*# sourceMappingURL=styles.css.map */
