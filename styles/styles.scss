@@ -19,10 +19,90 @@ body {
 // Join Section
 .card-join {
     background-color: white;
+    border-radius: 0.3125rem 0.3125rem 0 0;
+    margin-top: 1.75rem;
 
     .join-header {
         font-size: 1.25rem;
         color: $color-cyan;
         font-weight: $font-700;
     }
+}
+
+.card-join .accent {
+    color: $color-yellow;
+    margin-top: 1.5rem;
+    font-weight: $font-700;
+}
+
+.card-join .text-content {
+    color: $color-gray-blue;
+    margin-top: 1.2rem;
+    font-size: 0.875rem;
+    line-height: 1.625rem;
+}
+
+// Subscription Section
+.card-subscription {
+    background-color: $color-cyan;
+    color: white;
+}
+
+.subscription-header {
+    font-size: 1.125rem;
+    font-weight: $font-700;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin-top: 1.125rem;
+}
+
+.dollars {
+    font-size: 2rem;
+    font-weight: $font-700;
+}
+
+.per-month {
+    margin-left: 0.8675rem;
+    opacity: 50%;
+}
+
+.card-subscription .text-content {
+    margin-top: 0.25rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: $font-700;
+    background: $color-yellow;
+    border-radius: 0.4rem;
+    margin-top: 1.625rem;
+    padding: 0.9375rem;
+}
+
+// Why Us Section
+.card-why-us {
+    background-color: hsl(179, 62%, 47%);
+    color: white;
+}
+
+.why-us-heading {
+    font-size: 1.125rem;
+    font-weight: $font-700;
+}
+
+.card-why-us-overlay p:first-of-type {
+    margin-top: 1.125rem;
+}
+
+.card-why-us-overlay p {
+    font-size: 0.875rem;
+    opacity: 0.75;
+    line-height: 1.25rem;
 }

@@ -24,9 +24,87 @@ body {
 
 .card-join {
   background-color: white;
+  border-radius: 0.3125rem 0.3125rem 0 0;
+  margin-top: 1.75rem;
 }
 .card-join .join-header {
   font-size: 1.25rem;
   color: hsl(179deg, 62%, 43%);
   font-weight: 700;
+}
+
+.card-join .accent {
+  color: hsl(71deg, 73%, 54%);
+  margin-top: 1.5rem;
+  font-weight: 700;
+}
+
+.card-join .text-content {
+  color: hsl(218deg, 22%, 67%);
+  margin-top: 1.2rem;
+  font-size: 0.875rem;
+  line-height: 1.625rem;
+}
+
+.card-subscription {
+  background-color: hsl(179deg, 62%, 43%);
+  color: white;
+}
+
+.subscription-header {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  margin-top: 1.125rem;
+}
+
+.dollars {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.per-month {
+  margin-left: 0.8675rem;
+  opacity: 50%;
+}
+
+.card-subscription .text-content {
+  margin-top: 0.25rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  background: hsl(71deg, 73%, 54%);
+  border-radius: 0.4rem;
+  margin-top: 1.625rem;
+  padding: 0.9375rem;
+}
+
+.card-why-us {
+  background-color: hsl(179deg, 62%, 47%);
+  color: white;
+}
+
+.why-us-heading {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.card-why-us-overlay p:first-of-type {
+  margin-top: 1.125rem;
+}
+
+.card-why-us-overlay p {
+  font-size: 0.875rem;
+  opacity: 0.75;
+  line-height: 1.25rem;
 }/*# sourceMappingURL=styles.css.map */
