@@ -16,6 +16,8 @@ body {
 
 .card {
   width: 311px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-content {
