@@ -93,6 +93,7 @@ body {
 .card-why-us {
     background-color: hsl(179, 62%, 47%);
     color: white;
+    border-radius: 0 0 0.3125rem 0.3125rem;
 }
 
 .why-us-heading {
@@ -139,10 +140,13 @@ body {
 
     .card-subscription {
         width: 50%;
+        border-radius: 0 0 0 0.5rem;
     }
 
     .card-why-us {
         width: 50%;
+        border-radius: 0 0 0.5rem 0;
+
     }
 
     .card-content {
