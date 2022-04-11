@@ -29,26 +29,30 @@ body {
         color: $color-cyan;
         font-weight: $font-700;
     }
-}
 
-.card-join .accent {
-    color: $color-yellow;
-    margin-top: 1.5rem;
-    font-weight: $font-700;
-}
+    .accent {
+        color: $color-yellow;
+        margin-top: 1.5rem;
+        font-weight: $font-700;
+    }
 
-.card-join .text-content {
-    color: $color-gray-blue;
-    margin-top: 1.2rem;
-    margin-bottom: 0.8rem;
-    font-size: 0.875rem;
-    line-height: 1.625rem;
+    .text-content {
+        color: $color-gray-blue;
+        margin-top: 1.2rem;
+        margin-bottom: 0.8rem;
+        font-size: 0.875rem;
+        line-height: 1.625rem;
+    }
 }
 
 // Subscription Section
 .card-subscription {
     background-color: $color-cyan;
     color: white;
+
+    .text-content {
+        margin-top: 0.25rem;
+    }
 }
 
 .subscription-header {
@@ -70,10 +74,6 @@ body {
 .per-month {
     margin-left: 0.8675rem;
     opacity: 50%;
-}
-
-.card-subscription .text-content {
-    margin-top: 0.25rem;
 }
 
 .btn {
@@ -119,6 +119,24 @@ body {
         display: flex;
     }
 
+    .card-join {
+        border-radius: 0.5rem 0.5rem 0 0;
+
+        .join-header {
+            font-size: 24px;
+        }
+
+        .text-content {
+            font-size: 16px;
+            line-height: 1.625rem;
+            margin-bottom: 0;
+        }
+
+        .accent {
+            font-size: 18px;
+        }
+    }
+
     .card-subscription {
         width: 50%;
     }
@@ -127,27 +145,7 @@ body {
         width: 50%;
     }
 
-    .card-join {
-        border-radius: 0.5rem 0.5rem 0 0;
-
-    }
-
-    .card-join .join-header {
-        font-size: 24px;
-
-    }
-
-    .card-join .text-content {
-        font-size: 16px;
-        line-height: 1.625rem;
-        margin-bottom: 0;
-    }
-
     .card-content {
         padding: 40px;
-    }
-
-    .card-join .accent {
-        font-size: 18px;
     }
 }

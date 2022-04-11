@@ -34,13 +34,11 @@ body {
   color: hsl(179deg, 62%, 43%);
   font-weight: 700;
 }
-
 .card-join .accent {
   color: hsl(71deg, 73%, 54%);
   margin-top: 1.5rem;
   font-weight: 700;
 }
-
 .card-join .text-content {
   color: hsl(218deg, 22%, 67%);
   margin-top: 1.2rem;
@@ -52,6 +50,9 @@ body {
 .card-subscription {
   background-color: hsl(179deg, 62%, 43%);
   color: white;
+}
+.card-subscription .text-content {
+  margin-top: 0.25rem;
 }
 
 .subscription-header {
@@ -73,10 +74,6 @@ body {
 .per-month {
   margin-left: 0.8675rem;
   opacity: 50%;
-}
-
-.card-subscription .text-content {
-  margin-top: 0.25rem;
 }
 
 .btn {
@@ -121,6 +118,21 @@ body {
     display: flex;
   }
 
+  .card-join {
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  .card-join .join-header {
+    font-size: 24px;
+  }
+  .card-join .text-content {
+    font-size: 16px;
+    line-height: 1.625rem;
+    margin-bottom: 0;
+  }
+  .card-join .accent {
+    font-size: 18px;
+  }
+
   .card-subscription {
     width: 50%;
   }
@@ -129,25 +141,7 @@ body {
     width: 50%;
   }
 
-  .card-join {
-    border-radius: 0.5rem 0.5rem 0 0;
-  }
-
-  .card-join .join-header {
-    font-size: 24px;
-  }
-
-  .card-join .text-content {
-    font-size: 16px;
-    line-height: 1.625rem;
-    margin-bottom: 0;
-  }
-
   .card-content {
     padding: 40px;
-  }
-
-  .card-join .accent {
-    font-size: 18px;
   }
 }/*# sourceMappingURL=styles.css.map */
